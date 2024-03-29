@@ -165,3 +165,25 @@ This project is based on [BasicSR](https://github.com/XPixelGroup/BasicSR). Some
 
 ### Contact
 If you have any questions, please feel free to reach me out at `shangchenzhou@gmail.com`. 
+
+### ABT notes
+use python3.9 is fine but we need pay attention to the cv2 and pytorch version, we need set pytorch==2.1.0, the requirements.txt need to be updated to the following one:
+```
+addict
+future
+lmdb
+numpy
+opencv-python
+Pillow==9.5.0
+pyyaml
+requests
+scikit-image
+scipy
+tb-nightly
+torch==2.1.0
+torchvision
+tqdm
+yapf
+lpips
+gdown # supports downloading the large file from Google Drive
+```
